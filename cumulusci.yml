@@ -1,0 +1,28 @@
+minimum_cumulusci_version: '3.73.0'
+project:
+    name: OEE-ProfessionalEducation-Invoicing
+    package:
+        name: OEE-ProfessionalEducation-Invoicing
+        namespace: csuoee
+        api_version: '57.0'
+    dependencies:
+        - github: 'https://github.com/SalesforceFoundation/EDA'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/OEE-ProfessionalEducation-Invoicing/tests
+            options:
+                outputdir: robot/OEE-ProfessionalEducation-Invoicing/results
+
+    robot_testdoc:
+        options:
+            path: robot/OEE-ProfessionalEducation-Invoicing/tests
+            output: robot/OEE-ProfessionalEducation-Invoicing/doc/OEE-ProfessionalEducation-Invoicing_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
