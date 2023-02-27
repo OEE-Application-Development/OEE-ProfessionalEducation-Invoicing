@@ -1,4 +1,3 @@
-{"packageDirectories": [{"path": "force-app", "default": true}], "namespace": "csuoee", "sourceApiVersion": "57.0"}
 {
     "packageDirectories": [
         {
@@ -16,8 +15,5 @@
     ], 
     "name": "OEE-ProfessionalEducation-Invoicing",
     "namespace": "csuoee", 
-    "packageAliases": {
-        "OEE-ProfessionalEducation-Invoicing": "0Ho5b000000oLm1CAE"
-    },
     "sourceApiVersion": "57.0"
 }
