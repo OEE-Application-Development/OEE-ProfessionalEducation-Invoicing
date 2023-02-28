@@ -1,19 +1,32 @@
 {
-    "packageDirectories": [
+  "packageDirectories": [
+    {
+      "package": "OEE-ProfessionalEducation-Invoicing",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "definitionFile": "orgs/release.json",
+      "default": true,
+      "dependencies": [
         {
-            "package": "OEE-ProfessionalEducation-Invoicing", 
-            "versionNumber": "0.1.0.NEXT", 
-            "path": "force-app", 
-            "definitionFile": "orgs/release.json",
-            "default": true,
-            "dependencies": [
-                {"package": "04t1R0000016bHcQAI"},
-                {"package": "04t5b000002BQXAAA4"},
-                {"package": "04tDn000000zGhHIAU"}
-            ]
+          "package": "04t1R0000016bHcQAI"
+        },
+        {
+          "package": "04t5b000002BQXAAA4"
+        },
+        {
+          "package": "04tDn000000zGhHIAU"
+        },
+        {
+          "package": "04t5b000002BQXoAAO"
         }
-    ], 
-    "name": "OEE-ProfessionalEducation-Invoicing",
-    "namespace": "csuoee", 
-    "sourceApiVersion": "57.0"
+      ]
+    }
+  ],
+  "name": "OEE-ProfessionalEducation-Invoicing",
+  "namespace": "csuoee",
+  "packageAliases": {
+    "OEE-ProfessionalEducation-Invoicing": "0Ho5b000000oLm6CAE",
+    "OEE-ProfessionalEducation-Invoicing@0.1.0-1": "04t5b000002BQXyAAO"
+  },
+  "sourceApiVersion": "57.0"
 }
